@@ -13,9 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.view.backgroundColor = UIColor.yellow
+        
+        //backgroundColor를 red로 변경
+        self.view.backgroundColor = UIColor.blue
     }
-
 
 }
 
